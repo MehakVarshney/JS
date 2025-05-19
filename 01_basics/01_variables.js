@@ -1,10 +1,8 @@
-const accountId=144553
-let accountEmail = "mehak00@gmail.com"
+const accountId=144553 //can not be change
+let accountEmail = "mehak00@gmail.com" // can be change
 var accountPass = "12345"
 accountCity = "jaipur"
-
 let accountState;
-
 // accountId = 2 not allowed
 accountEmail = "kmnhyufrtf@gmail.com"
 accountPass = "98765"
