@@ -26,3 +26,29 @@ const obj={
 const myfunction = function() {
     console.log("hello world");
 }
+
+
+
+//*********************************************************** */
+// Stack (Premitive), Heap(Non - Premitive)
+
+// Stack mai data ki copy milti hai aur usme changes krte hai 
+// Heap mai data ka reference milta hai to original mai change krte hai
+
+let myName = "mehakVarshney"
+
+let anotherName = myName
+anotherName = "mehak"
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email:"user@google.com",
+    age : 22,
+}
+let userTwo = userOne
+userTwo.email = "mehak@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
